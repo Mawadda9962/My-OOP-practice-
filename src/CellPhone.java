@@ -8,7 +8,9 @@ public class CellPhone {
     }
 
     public void setManufact(String manufact) {
-        this.manufact = manufact;
+        if (manufact.equals("iPhone")){
+            this.manufact = manufact;
+        }
     }
 
     public String getModle() {
@@ -31,6 +33,12 @@ public class CellPhone {
 
         CellPhone Cell1 = new CellPhone();
         CellPhone Cell2 = new CellPhone();
+
+        Cell1.setManufact("iPhone");
+        Cell1.setModle("2021");
+
+        Cell2.setManufact("Samsung");
+        Cell2.setModle("2023");
 
 
 
