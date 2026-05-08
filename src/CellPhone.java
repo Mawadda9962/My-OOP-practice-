@@ -30,6 +30,7 @@ public class CellPhone {
     public static void main(String[] args){
 
         CellPhone Cell1 = new CellPhone();
+        CellPhone Cell2 =
 
 
 
