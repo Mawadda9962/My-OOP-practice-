@@ -8,8 +8,10 @@ public class CellPhone {
     }
 
     public void setManufact(String manufact) {
-        if (manufact.equals("iPhone")){
+        if (manufact.equals("iPhone") || manufact.equals("Samsung")){
             this.manufact = manufact;
+        }else{
+            System.out.println("Error!");
         }
     }
 
@@ -18,7 +20,12 @@ public class CellPhone {
     }
 
     public void setModle(String modle) {
-        this.modle = modle;
+        if (modle.equals("2021") || modle.equals("2023")){
+            this.modle = modle;
+
+        }else{
+            System.out.println("Invalid Model!");
+        }
     }
 
     public double getRetailPrice() {
