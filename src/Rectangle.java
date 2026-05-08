@@ -27,16 +27,14 @@ public class Rectangle {
 
         R1.setLength(2);
         R1.setWidth(4);
-
-        System.out.println(R1.Length);
-
+        System.out.println(R1.getarea());
 
 
         Rectangle R2 = new Rectangle();
 
         R2.setWidth(4);
         R2.setLength(4);
-
+        System.out.println(R2.getarea());
 
     }
 }
