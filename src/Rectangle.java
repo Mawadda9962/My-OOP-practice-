@@ -7,6 +7,7 @@ public class Rectangle {
     }
 
     public void setLength(double length) {
+        length =70;
         Length = length;
     }
 
@@ -35,6 +36,13 @@ public class Rectangle {
         R2.setWidth(4);
         R2.setLength(4);
         System.out.println(R2.getarea());
+
+        Rectangle room1 = new Rectangle();
+        double roomLength = 50;
+        room1.setLength(roomLength);
+
+        System.out.println(roomLength);
+
 
     }
 }

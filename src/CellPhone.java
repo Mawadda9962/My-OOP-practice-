@@ -3,6 +3,9 @@ public class CellPhone {
     private  String modle;
     private  double retailPrice;
 
+    public CellPhone(String iPhone, String number, double v) {
+    }
+
     public String getManufact() {
         return manufact;
     }
@@ -32,20 +35,25 @@ public class CellPhone {
         return retailPrice;
     }
 
+    public CellPhone() {
+        this.manufact = manufact;
+        this.modle = modle;
+        this.retailPrice = retailPrice;
+    }
+
     public void setRetailPrice(double retailPrice) {
         this.retailPrice = retailPrice;
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-        CellPhone Cell1 = new CellPhone();
         CellPhone Cell2 = new CellPhone();
+        CellPhone myInputObject = new CellPhone("iPhone", "4873", 300.31);
 
-        Cell1.setManufact("iPhone");
-        Cell1.setModle("2021");
+        myInputObject.getManufact();
 
-        Cell2.setManufact("Samsung");
-        Cell2.setModle("2023");
+
+
 
 
 
