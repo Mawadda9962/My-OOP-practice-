@@ -4,6 +4,6 @@ public class Rectangle {
 
     private static void main(String[] args){
         Rectangle R1 = new Rectangle(); //Creating a new object from the rectangle class
-
+        ..
     }
 }
