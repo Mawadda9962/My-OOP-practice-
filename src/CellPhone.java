@@ -17,7 +17,7 @@ public class CellPhone {
             System.out.println("Error!");
         }
     }
-fgmdf
+fgmdff
     public String getModle() {
         return modle;
     }
