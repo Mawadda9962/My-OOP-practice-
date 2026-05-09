@@ -2,17 +2,18 @@ public class Rectangle {
     private double Length;
     private double Width;
 
+    public Rectangle(double L, double W) {
+    }
+
     public double getLength() {
         return Length;
     }
-    public Rectangle add (Rectangle Room1 , Rectangle Room2){
-        Rectangle Result = new Rectangle();
-        Result.Length = Room1.Length + Room2.Length;
-        Result.Width = Room1.Width + Room2.Width;
+    public Rectangle add (Rectangle Room2){
+        Rectangle Result = new Rectangle( );
+        Result.Length = this.Length + Room2.Length;
+        Result.Width = this.Width + Room2.Width;
 
         return Result;
-
-
     }
 
     public void setLength(double length) {
@@ -33,24 +34,10 @@ public class Rectangle {
     }
 
     private static void main(String[] args){
-        Rectangle R1 = new Rectangle(); //Creating a new object from the rectangle class
+        Rectangle R1 = new Rectangle(10 ,50); //Creating a new object from the rectangle class
+        Rectangle R2 = new Rectangle(10 ,50);
 
-        R1.setLength(2);
-        R1.setWidth(4);
-        System.out.println(R1.getarea());
-
-
-        Rectangle R2 = new Rectangle();
-
-        R2.setWidth(4);
-        R2.setLength(4);
-        System.out.println(R2.getarea());
-
-        Rectangle room1 = new Rectangle();
-        double roomLength = 50;
-        room1.setLength(roomLength);
-
-        System.out.println(roomLength);
+        if
 
 
     }
