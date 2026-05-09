@@ -48,7 +48,7 @@ public class Rectangle {
 
         R1 =R2;
 
-
+kk
      if (R1.equals(R2)){
          System.out.println("The object is equal");
      }else {
