@@ -10,6 +10,8 @@ public class Rectangle {
         Result.Length = Room1.Length + Room2.Length;
         Result.Width = Room1.Width + Room2.Width;
 
+        return Result;
+
 
     }
 
