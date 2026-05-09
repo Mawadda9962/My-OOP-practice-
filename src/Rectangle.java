@@ -33,11 +33,27 @@ public class Rectangle {
        return Length * Width;
     }
 
+    public boolean isEqual (Rectangle object2){
+        if (this.Length == this.Length && this.Width == this.Width){
+            return true;
+
+        }else {
+            return false;
+        }
+    }
+
     private static void main(String[] args){
         Rectangle R1 = new Rectangle(10 ,50); //Creating a new object from the rectangle class
         Rectangle R2 = new Rectangle(10 ,50);
 
-        if
+        R1 =R2;
+
+
+     if (R1.equals(R2)){
+         System.out.println("The object is equal");
+     }else {
+         System.out.println("The object is not equal");
+     }
 
 
     }
