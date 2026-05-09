@@ -5,6 +5,13 @@ public class Rectangle {
     public double getLength() {
         return Length;
     }
+    public Rectangle add (Rectangle Room1 , Rectangle Room2){
+        Rectangle Result = new Rectangle();
+        Result.Length = Room1.Length + Room2.Length;
+        Result.Width = Room1.Width + Room2.Width;
+
+
+    }
 
     public void setLength(double length) {
         length =70;
